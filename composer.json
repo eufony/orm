@@ -1,0 +1,32 @@
+{
+  "name": "eufony/orm",
+  "description": "Model-based zero-configuration PHP object relational mapping library.",
+  "keywords": [ "eufony", "orm", "sql" ],
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Alpin Gencer",
+      "email": "alpingencer@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Eufony\\ORM\\": [ "src/Exception/", "src/" ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\": [ "tests/App/" ],
+      "Eufony\\ORM\\Tests\\": [ "tests/" ]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
